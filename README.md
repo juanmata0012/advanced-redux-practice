@@ -12,7 +12,7 @@
   * messages
 * Remember 2 parameters state and action. Remember to return state
 * Combine the reducers and export
-  
+<!-- Done with Reducers -->
 
 
 ### Create Database
@@ -21,6 +21,7 @@
 * Import state from state.js
 * Import reducers from reducers/index
 * Create the store and export it
+<!-- Done with store.js -->
 
 ### Provide store to components
 * In index.js
@@ -28,6 +29,7 @@
 * Import store from store.js
 * Use Provider component to wrap App
 * Give Provider a prop “store” and the value of the store
+<!-- Done here. Still works! -->
 
 ### Create Containers
 * In each Container:
@@ -39,8 +41,8 @@
 * Export the container
 
 ### ONLY make these components into Containers
-* Tickets (use as example)
-* TransactionPanel 
+<!-- * Tickets (use as example) -->
+<!-- * TransactionPanel -->
 * TopNav
 * TasksPanel
 * Comments
@@ -50,6 +52,5 @@
 ### Think - Why do the other components not care about the database such that we don't need to make them Containers??
 
 ### Fix
-* In App.js remove the props parameter and all instances of passing props 
+* In App.js remove the props parameter and all instances of passing props
 * In index.js remove all instances of state and passing props to App
-

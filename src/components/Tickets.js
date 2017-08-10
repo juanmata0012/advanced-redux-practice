@@ -31,7 +31,9 @@ const mapStateToProps = function (state) {
     tickets: state.tickets
   };
 };
-export default (Tickets);
+
+var otherfunction = connect(mapStateToProps);
+const TicketsContainer = otherfunction(Tickets);
+
+export default TicketsContainer;
 // export default connect(mapStateToProps,null)(Tickets);
-
-
