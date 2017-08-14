@@ -43,9 +43,9 @@
 ### ONLY make these components into Containers
 <!-- * Tickets (use as example) -->
 <!-- * TransactionPanel -->
-* TopNav
-* TasksPanel
-* Comments
+<!-- * TopNav -->
+<!-- * TasksPanel -->
+<!-- * Comments -->
 * Orders
 * Tasks
 
