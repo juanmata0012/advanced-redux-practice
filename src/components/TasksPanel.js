@@ -26,7 +26,7 @@ function TasksPanel(props) {
 
 const mapStateToProps = function (state) {
   return {
-    taskss: state.tasks
+    tasks: state.tasks
   };
 };
 

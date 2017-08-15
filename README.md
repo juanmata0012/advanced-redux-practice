@@ -46,8 +46,8 @@
 <!-- * TopNav -->
 <!-- * TasksPanel -->
 <!-- * Comments -->
-* Orders
-* Tasks
+<!-- * Orders -->
+<!-- * Tasks -->
 
 ### Think - Why do the other components not care about the database such that we don't need to make them Containers??
 
